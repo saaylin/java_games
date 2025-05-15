@@ -10,12 +10,12 @@ public class Phone implements Product{
     }
 
     @Override
-    public int id() {
-        return 0;
+    public int getID() {
+        return this.id;
     }
 
     @Override
     public String getTitle() {
-        return "";
+        return this.title + " i am a phone";
     }
 }

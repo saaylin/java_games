@@ -9,7 +9,7 @@ import at.aylin.games.test2.Car;
 
 
 public class Main {
-    // dry - dont repeat yoursel
+    // dry - do not repeat yourself
     // open close
 
     public static void main(String[] args) {
@@ -21,4 +21,4 @@ public class Main {
         gui.start();
     }
 }
-}
+

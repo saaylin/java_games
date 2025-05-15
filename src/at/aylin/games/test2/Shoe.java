@@ -1,5 +1,7 @@
 package at.aylin.games.test2;
 
+import java.awt.*;
+
 public class Shoe implements Product{
     private Color color;
     private int id;
@@ -9,11 +11,6 @@ public class Shoe implements Product{
         this.color = color;
         this.id = id;
         this.title = title;
-    }
-
-    @Override
-    public int id() {
-        return 0;
     }
 
     @Override
